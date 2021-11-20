@@ -1,0 +1,19 @@
+Cls
+_Title "THE DIGIT GREATER OR SMALLER TELLER"
+Print "VERSION  2.0"
+Input "enter the first number", NUM1
+Input "enter the second number", NUM2
+Input "enter the third number", NUM3
+If NUM1 > NUM2 > NUM3 Then
+    Print NUM1; "IS GREATER THAN"; NUM2; "AND"; NUM2; "IS GREATER THAN"; NUM3
+ElseIf NUM1 < NUM2 > NUM3 Then
+    Print NUM2; "IS GREATER THAN"; NUM1; "AND"; NUM3; "SMALL TECHNICAL ERROR IN COUNTING WHICH IS THE GREATEST IN THIS (ERROR CODE:NULL) "
+ElseIf NUM1 < NUM2 < NUM3 Then
+    Print NUM3; "IS GREATER THAN"; NUM2; "AND"; NUM2; "IS GREATER THAN"; NUM1
+ElseIf NUM1 > NUM2 < NUM3 Then
+    Print NUM1; "IS GREATER THAN"; NUM3; "AND"; NUM3; "IS GREATER THAN"; NUM2
+ElseIf NUM1 > NUM2 < NUM3 Then
+    Print NUM3; "IS GREATER THAN"; NUM1; "AND"; NUM2:
+Else
+    Print "THE NUMBERS ARE SAME"
+End If
